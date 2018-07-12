@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SlideUnlockView">
+        <attr name="suv_bgColor" format="reference|color" />
+
+    </declare-styleable>
+
+</resources>

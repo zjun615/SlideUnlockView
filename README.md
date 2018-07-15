@@ -16,7 +16,7 @@ allprojects {
 > 添加依赖
 ```xml
 dependencies {
-    implementation 'com.github.zjun615:SlideUnlockView:0.1'
+    implementation 'com.github.zjun615:SlideUnlockView:0.2'
 }
 ```
 

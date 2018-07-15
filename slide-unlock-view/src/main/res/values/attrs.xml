@@ -1,7 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="SlideUnlockView">
+        <!--背景颜色-->
         <attr name="suv_bgColor" format="reference|color" />
+        <!--边框颜色-->
+        <attr name="suv_strokeColor" format="reference|color" />
+        <!--边框宽度-->
+        <attr name="suv_strokeWidth" format="reference|dimension" />
+        <!--滑过的背景颜色-->
+        <attr name="suv_slideBgColor" format="reference|color" />
+        <!--滑动按钮与外边的间距-->
+        <attr name="suv_slideGap" format="reference|dimension" />
+        <!--滑动误差值-->
+        <attr name="suv_slideDeviation" format="reference|dimension" />
+        <!--滑动按钮颜色-->
+        <attr name="suv_btnColor" format="reference|color" />
+        <!--被按下时，按钮的光环大小-->
+        <attr name="suv_btnRingSize" format="reference|dimension" />
+        <!--被按下时，按钮的光环颜色-->
+        <attr name="suv_btnRingColor" format="reference|color" />
+        <!--滑动按钮里箭头大小-->
+        <attr name="suv_arrowSize" format="reference|dimension" />
+        <!--滑动按钮里箭头线条大小-->
+        <attr name="suv_arrowLineWidth" format="reference|dimension" />
+        <!--滑动按钮里箭头颜色-->
+        <attr name="suv_arrowColor" format="reference|color" />
+        <!--提示文字内容-->
+        <attr name="suv_tips" format="reference|string" />
+        <!--提示文字字体大小-->
+        <attr name="suv_tipsSize" format="reference|dimension" />
+        <!--提示文字字体颜色-->
+        <attr name="suv_tipsColor" format="reference|color" />
+        <!--提示文字是否粗体-->
+        <attr name="suv_tipsBold" format="boolean" />
+        <!--是否需要返回动画-->
+        <attr name="suv_backAnimatorEnable" format="boolean" />
+        <!--返回动画，从终点到起点的总时长，单位：ms-->
+        <attr name="suv_backFullDuration" format="reference|integer" />
 
     </declare-styleable>
 

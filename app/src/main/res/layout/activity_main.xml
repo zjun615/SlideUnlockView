@@ -1,15 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="16dp"
     tools:context=".MainActivity">
 
     <com.zjun.widget.SlideUnlockView
         android:id="@+id/slv_unlock"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:padding="5dp"/>
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        app:suv_arrowColor="#cfca34"
+        app:suv_arrowLineWidth="2dp"
+        app:suv_bgColor="#e7e7dc"
+        app:suv_btnColor="#1a21eb"
+        app:suv_btnRingColor="#551a21eb"
+        app:suv_slideBgColor="#a8b9ca"
+        app:suv_slideDeviation="8dp"
+        app:suv_strokeColor="#140de8"
+        app:suv_strokeWidth="2dp"
+        app:suv_slideGap="3dp"
+        app:suv_tips="Right slide to unlock"
+        app:suv_tipsBold="false"
+        app:suv_tipsColor="#86d"
+        app:suv_tipsSize="16sp" />
+
+    <Button
+        android:id="@+id/btn_bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:onClick="onClick"
+        android:text="Toggle bold style"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_animator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:onClick="onClick"
+        android:text="Toggle back animator enable"
+        android:textAllCaps="false" />
+
 
 </LinearLayout>

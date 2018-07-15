@@ -1,6 +1,8 @@
 # SlideUnlockView
 滑动解锁控件
 
+![more](https://github.com/zjun615/SlideUnlockView/blob/master/imgs/SlideUnlockView.gif) 
+
 ## Gradle依赖
 > 在工程build.gradle中添加
 ```xml
